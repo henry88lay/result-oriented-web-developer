@@ -218,9 +218,15 @@ h2::after{
     height: 1px;
     background: #292929;
     display: block;
+    margin: 15px 0;
 }
 
 .page-footer li{
     font-size: 13px;
     color: #999;
+    line-height: 1.6;
+}
+
+.copy {
+    color: #585858;
 }
