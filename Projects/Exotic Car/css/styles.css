@@ -138,9 +138,9 @@ h1{
 
 .articles{
     background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(-20deg, #ffffff 0%, #ffffff 50%, #000000 50%, #000000 50%, #000000 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-20deg, #ffffff 0%,#ffffff 50%,#000000 50%,#000000 50%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(110deg, #ffffff 0%,#ffffff 50%,#000000 50%,#000000 50%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(-5deg, #ffffff 0%, #ffffff 50%, #000000 50%, #000000 50%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-5deg, #ffffff 0%,#ffffff 50%,#000000 50%,#000000 50%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(95deg, #ffffff 0%,#ffffff 50%,#000000 50%,#000000 50%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .articles>.wrapper:after{
@@ -161,6 +161,7 @@ article{
 
 article:first-of-type{
     padding-right: 65px;
+    color: #000;
 }
 
 article:last-of-type{
@@ -172,10 +173,21 @@ h2{
     font-weight: 300;
 }
 
+h2::after{
+    content: '.';
+    font-size: 0;
+    display: block;
+    height: 2px;
+    width: 38px;
+    background: #ca0500;
+    margin: 25px 0 28px;
+}
+
 .quote{
     font-size: 22px;
     font-style: italic;
     font-weight: 300;
+    margin-bottom: 25px;
 }
 
 .text{
