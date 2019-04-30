@@ -47,3 +47,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*================ BASE STYLE ===================*/
+body {
+    color: #fff;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+}
+
+/*================ HEADER ===================*/
