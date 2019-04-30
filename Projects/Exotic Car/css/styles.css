@@ -154,4 +154,13 @@ h1{
 article{
     width: 50%;
     float: left;
+    box-sizing: border-box;
+}
+
+article:first-of-type{
+    padding-right: 65px;
+}
+
+article:last-of-type{
+    padding-left: 65px;
 }
