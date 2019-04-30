@@ -143,7 +143,7 @@ h1{
     background: linear-gradient(95deg, #ffffff 0%,#ffffff 50%,#000000 50%,#1b1b1b 50%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-.articles>.wrapper:after{
+.articles>.wrapper:after, .page-footer>.wrapper:after{
     content: '.';
     font-size: 0;
     height: 1px;
@@ -196,3 +196,31 @@ h2::after{
 }
 
 /*================ FOOTER ===================*/
+.page-footer {
+    background: #111111;
+    padding-top: 25px;
+}
+
+.footer-col{
+    width: 25%;
+    float: left;
+}
+
+.page-footer h3{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.page-footer h3::after{
+    content: '.';
+    font-size: 0;
+    width: 90%;
+    height: 1px;
+    background: #292929;
+    display: block;
+}
+
+.page-footer li{
+    font-size: 13px;
+    color: #999;
+}
