@@ -64,6 +64,7 @@ body{
 /*================ HEADER ===================*/
 .page-header{
     height: 66px;
+    width: 100%;
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     left: 0;
@@ -116,6 +117,7 @@ h1{
 .subtitle{
     font-size: 21px;
     font-weight: 300;
+    margin: 25px 0,
 }
 
 .learn-more{
