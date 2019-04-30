@@ -56,3 +56,14 @@ body {
 }
 
 /*================ HEADER ===================*/
+.page-header {
+    height: 66px;
+    background: rgba(0, 0, 0, 0.8);
+}
+.page-header .logo {
+    float: left;
+}
+
+.page-header .main-nav{
+    float: right;
+}
