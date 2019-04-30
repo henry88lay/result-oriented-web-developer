@@ -92,6 +92,10 @@ body{
     line-height: 60px;
 }
 
+.main-nav li a:hover{
+    color: #ca0500;
+}
+
 /*================ MAIN ===================*/
 
 /*================ BANNER ===================*/
@@ -132,6 +136,11 @@ h1{
     width: 166px;
     box-sizing: border-box;
     margin: 0 auto;
+}
+
+.learn-more:hover{
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+    border: 1px solid #ff0000;
 }
 
 /*================ ARTICLES ===================*/
