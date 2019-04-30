@@ -236,6 +236,11 @@ h2::after{
     line-height: 1.6;
 }
 
+.page-footer li:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
 .copy {
     color: #585858;
     margin-top: 32px;
@@ -250,6 +255,11 @@ h2::after{
     color: #fff;
     text-align: center;
     line-height: 44px;
+}
+
+.social a:hover{
+    background: #fff;
+    color: #ff0000;
 }
 
 .social li {
