@@ -138,9 +138,9 @@ h1{
 
 .articles{
     background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(-5deg, #ffffff 0%, #ffffff 50%, #000000 50%, #000000 50%, #000000 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-5deg, #ffffff 0%,#ffffff 50%,#000000 50%,#000000 50%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(95deg, #ffffff 0%,#ffffff 50%,#000000 50%,#000000 50%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(-5deg, #ffffff 0%, #ffffff 50%, #1b1b1b 50%, #000000 50%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-5deg, #ffffff 0%,#ffffff 50%,#1b1b1b 50%,#000000 50%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(95deg, #ffffff 0%,#ffffff 50%,#000000 50%,#1b1b1b 50%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .articles>.wrapper:after{
@@ -194,3 +194,5 @@ h2::after{
     font-weight: 300;
     margin-bottom: 60px;
 }
+
+/*================ FOOTER ===================*/
