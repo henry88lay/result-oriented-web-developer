@@ -229,4 +229,20 @@ h2::after{
 
 .copy {
     color: #585858;
+    margin-top: 32px;
+}
+
+.social a{
+    display: block;
+    width: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+}
+
+.social li {
+    display: inline-block;    
 }
