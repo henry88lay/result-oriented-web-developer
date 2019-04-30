@@ -49,21 +49,44 @@ table {
 }
 
 /*================ BASE STYLE ===================*/
-body {
+body{
     color: #fff;
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 15px;
 }
 
+.wrapper{
+    width: 1120px;
+    height: 100%;
+    margin: 0 auto;
+}
+
 /*================ HEADER ===================*/
-.page-header {
+.page-header{
     height: 66px;
     background: rgba(0, 0, 0, 0.8);
 }
-.page-header .logo {
+.page-header .logo{
     float: left;
+    padding-top: 23px;
+    box-sizing: border-box;
 }
 
 .page-header .main-nav{
     float: right;
 }
+
+.main-nav li{
+    float: left;
+    margin-left: 90px;
+}
+.main-nav li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+/*================ MAIN ===================*/
+
+/*================ BANNER ===================*/
