@@ -89,11 +89,11 @@ body{
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 60px;
+    line-height: 66px;
 }
 
 .main-nav li a:hover{
-    color: #ca0500;
+    color: #ff0000;
 }
 
 /*================ MAIN ===================*/
@@ -103,6 +103,7 @@ body{
     height: 612px;
     background: url(../images/banner.png);
     background-size: cover;
+    background-position: center;
     padding-top: 230px;
     box-sizing: border-box;
 }
