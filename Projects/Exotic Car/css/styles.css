@@ -114,6 +114,7 @@ body{
     font-size: 60px;
     font-weight: bold;
     text-align: center;
+    border-radius: 25px;
     border: 10px black;
     padding: 15px;
     background: black;
@@ -125,6 +126,7 @@ body{
 h1{
     text-transform: uppercase;
     color: solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .subtitle{
@@ -277,7 +279,7 @@ h2::after{
 /*================ Media Queries ===================*/
 
 @media (min-width: 320px) and (max-width: 480px) {
-    
+
 /*================ BASE STYLE ===================*/
 
 
