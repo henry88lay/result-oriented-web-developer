@@ -114,10 +114,17 @@ body{
     font-size: 60px;
     font-weight: bold;
     text-align: center;
+    border: 10px black;
+    padding: 15px;
+    background: black;
+    background-clip: padding-box;
+    opacity: .8;
+    width: 33%
 }
 
 h1{
     text-transform: uppercase;
+    color: solid;
 }
 
 .subtitle{
@@ -265,4 +272,28 @@ h2::after{
 
 .social li {
     display: inline-block;    
+}
+
+/*================ Media Queries ===================*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+/*================ BASE STYLE ===================*/
+
+
+/*================ HEADER ===================*/
+
+
+/*================ MAIN ===================*/
+
+
+/*================ BANNER ===================*/
+
+
+/*================ ARTICLES ===================*/
+
+
+/*================ FOOTER ===================*/
+
+
 }
