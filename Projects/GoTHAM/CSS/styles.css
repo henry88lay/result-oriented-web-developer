@@ -58,10 +58,16 @@ table {
 }
 
 @font-face {
-    font-family: ProximaNova;
+    font-family: Proxima;
     src:    url('../fonts/ProximaNova-Light.woff') format('woff'), 
             url('../fonts/ProximaNova-Light.ttf') format('truetype');
     font-weight: 300;
+}
+
+@font-face {
+    font-family: Proxima;
+    src:    url('../fonts/ProximaNova-Regular.woff') format('woff'), 
+            url('../fonts/ProximaNova-Regular.ttf') format('truetype');
 }
 
 body{
@@ -94,4 +100,13 @@ body{
 
 .page-header nav ul {
     display: flex;
+    justify-content: space-between;
+}
+
+.page-header nav a {
+    font-family: Proxima;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 35px;
 }
