@@ -79,3 +79,7 @@ body{
     background-color: #f7c61d;
     display: flex;
 }
+
+.page-header nav ul {
+    display: flex;
+}
