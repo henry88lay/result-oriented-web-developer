@@ -1,3 +1,6 @@
+/* ================================== */
+/* CSS Reset========================= */
+/* ================================== */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,3 +50,20 @@ table {
 	border-spacing: 0;
 }
 
+/* ================================== */
+@font-face {
+    font-family: Roboto;
+    src:    url('../fonts/Roboto-Regular.woff') format('woff'), 
+            url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src:    url('../fonts/ProximaNova-Light.woff') format('woff'), 
+            url('../fonts/ProximaNova-Light.ttf') format('truetype');
+}
+
+body{
+    font-size: 16px;
+    
+}
