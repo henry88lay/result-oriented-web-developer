@@ -146,6 +146,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .footer-nav a{
