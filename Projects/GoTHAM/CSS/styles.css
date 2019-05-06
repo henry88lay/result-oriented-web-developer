@@ -126,6 +126,25 @@ main{
     width: 23%;
 }
 
+img{
+    width: 100%;
+}
+
+article {
+    display: flex;
+}
+
+.article-left{
+    width: 30%;
+}
+
+.article-right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* ================================== */
 /* Footer   ========================= */
 /* ================================== */
