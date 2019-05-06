@@ -292,7 +292,7 @@ aside.right-sidebar {
     border-radius: 10px;
 }
 
-.calendar-widget ,.calendar-top {
+.calendar-widget, .calendar-top {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -303,6 +303,10 @@ aside.right-sidebar {
 
 .calendar-prev, .calendar-next{
     color: #e5e5e5;
+}
+
+.calendar-widget table{
+    width: 100%;
 }
 /* ================================== */
 /* Footer   ========================= */
