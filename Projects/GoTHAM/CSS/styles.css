@@ -74,12 +74,13 @@ table {
     font-family: Proxima;
     src:    url('../fonts/ProximaNova-Bold.woff') format('woff'), 
             url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: bold;
 }
 
 
 body{
     font-size: 16px;
-    
+    font-family: Roboto;
 }
 
 
@@ -143,7 +144,14 @@ article {
 
 h2{
     font-family: Proxima;
+    font-weight: bold;
+    font-size: 24px;
+}
 
+article h3{
+    font-family: Proxima;
+    font-weight: 300;
+    font-size: 30px;
 }
 
 .article-left{
