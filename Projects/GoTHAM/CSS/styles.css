@@ -289,6 +289,7 @@ aside.right-sidebar {
     border: 1px solid #e5e5e5;
     width: 100%;
     border-radius: 10px;
+    margin-top: 39px;
 }
 
 .calendar-widget .calendar-top {
@@ -305,7 +306,9 @@ aside.right-sidebar {
 }
 
 .calendar-widget table {
-    width: 100%;
+    width: calc(100% + 4px);
+    margin-left: -2px;
+    border-radius: 0 0 10px 10px;
 }
 
 .calendar-widget table th {
@@ -328,8 +331,17 @@ aside.right-sidebar {
     border-radius: 0 0 0 10px;
 }
 
+.calendar-widget tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
 .calendar-widget .current-month {
     color: #4d4d4d;
+}
+
+.calendar-widget .current-day {
+    background-color: #f7c61d;
+    color: #fff;
 }
 
 /* ================================== */
