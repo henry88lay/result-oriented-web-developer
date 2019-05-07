@@ -46,7 +46,6 @@ q:before, q:after {
 	content: none;
 }
 table {
-	border-collapse: collapse;
 	border-spacing: 0;
 }
 
@@ -323,6 +322,10 @@ aside.right-sidebar {
     vertical-align: middle;
     border: 1px solid #e5e5e5;
     color: #e5e5e5;
+}
+
+.calendar-widget tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
 }
 
 .calendar-widget .current-month {
