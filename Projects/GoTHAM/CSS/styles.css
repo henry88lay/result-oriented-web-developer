@@ -346,6 +346,7 @@ aside.right-sidebar {
 
 .popular-news article {
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .popular-news h3 {
@@ -353,6 +354,25 @@ aside.right-sidebar {
     font-family: Roboto;
     line-height: 1.2;
     margin-top: 10px;
+}
+
+.popular-news h2{
+    font-family: Proxima;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.popular-news h2::after {
+    content: '.';
+    font-size: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #e5e5e5; 
+    margin-left: 20px;
 }
 /* ================================== */
 /* Footer   ========================= */
