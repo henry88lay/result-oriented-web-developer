@@ -286,13 +286,13 @@ aside.right-sidebar {
     box-sizing: border-box;
 }
 
-.calendar-widget{
+.calendar-widget {
     border: 1px solid #e5e5e5;
     width: 100%;
     border-radius: 10px;
 }
 
-.calendar-widget, .calendar-top {
+.calendar-widget .calendar-top {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -305,19 +305,30 @@ aside.right-sidebar {
     color: #e5e5e5;
 }
 
-.calendar-widget table{
+.calendar-widget table {
     width: 100%;
 }
 
-.calendar-widget table th{
+.calendar-widget table th {
     height: 26px;
     background: #e7e7e7;
     color: #888;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.calendar-widget table td{
+.calendar-widget table td {
     height: 33px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #e5e5e5;
+    color: #e5e5e5;
 }
+
+.calendar-widget .current-month {
+    color: #4d4d4d;
+}
+
 /* ================================== */
 /* Footer   ========================= */
 /* ================================== */
