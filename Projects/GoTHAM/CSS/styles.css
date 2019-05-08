@@ -240,7 +240,7 @@ article h3{
 .views::before, .comment::before {
     content: '\f06e';
     font-family: 'Font Awesome 5 Free';
-    font-size: 16px;
+    font-size: 13px;
     margin-right: 10px;
 }
 
