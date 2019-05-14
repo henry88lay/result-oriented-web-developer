@@ -113,6 +113,7 @@ section {
 
 body {
     line-height: 1;
+    font-family: "Helvetica Neue", Helvetica, Arial, Utkal, sans-serif;
 }
 
 ol,
@@ -173,6 +174,7 @@ a {
     float: right;
     display: flex;
     height: 100%;
+    align-items: center
 }
 
 .page-nav ul {
@@ -193,6 +195,14 @@ a {
     margin-left: 5px;
 }
 
+.page-nav ul li:last-child::after {
+    content: "";
+}
+
+.page-nav a:hover {
+    color: #fff;
+}
+
 .page-logo {
     position: relative;
     width: 60px;
@@ -201,4 +211,13 @@ a {
 .page-logo img{
     position: absolute;
     width: 100%;
+}
+
+.search-switcher-label {
+    margin: 0 15px;
+}
+
+.page-search-field {
+    width: 0;
+    visibility: hidden;
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>CNN</title>
 </head>
@@ -12,36 +13,52 @@
         <div class="container">
             <div class="header-left">
                 <div class="page-logo">
-                    <img src="img/logo-cnn.png" alt="Page Logo">
+                    <a href="/">
+                        <img src="img/logo-cnn.png" alt="Page Logo">
+                    </a>
                 </div>
                 <div class="page-nav">
                     <ul>
-                        <li><a href="">item 1</a></li>
-                        <li><a href="">item 2</a></li>
-                        <li><a href="">item 3</a></li>
-                        <li><a href="">item 4</a></li>
-                        <li><a href="">item 5</a></li>
-                        <li><a href="">item 6</a></li>
-                        <li><a href="">item 7</a></li>
-                        <li><a href="">item 8</a></li>
-                        <li><a href="">item 9</a></li>
-                        <li><a href="">item 10</a></li>
-                        <li><a href="">item 11</a></li>
+                        <li><a href="">Regions</a></li>
+                        <li><a href="">U.S. Politics</a></li>
+                        <li><a href="">Money</a></li>
+                        <li><a href="">Entertainment</a></li>
+                        <li><a href="">Tech</a></li>
+                        <li><a href="">Sport</a></li>
+                        <li><a href="">Travel</a></li>
+                        <li><a href="">Style</a></li>
+                        <li><a href="">Health</a></li>
+                        <li><a href="">Video</a></li>
+                        <li><a href="">VR</a></li>
                     </ul>
                 </div>
             </div>
             <div class="header-right">
                 <div class="international-edition">
-                    
+                    <input type="checkbox" id="international-switcher" hidden>
+                    <label for="international-switcher">
+                        International Edition +
+                    </label>
+                    <div class="international-block">
+                        <ul>
+                            <li>U.S.</li>
+                            <li>Arabic</li>
+                            <li>Español</li>
+                        </ul>
+                        <hr>
+                        <p>Set edition preference:</p>
+                        <input type="radio" name="">
+                        <input type="radio" name="">
+                    </div>
                 </div>
                 <div class="page-search">
                     <input type="checkbox" id="search-switcher" hidden>
-                    <input type="search" name="">
-                    <label for="search-switcher">S</label>
+                    <input type="search" class="page-search-field">
+                    <label for="search-switcher" class="search-switcher-label"><i class="fas fa-search"></i></label>
                 </div>
                 <div class="header-expanded-menu">
                     <input type="checkbox" id="expanded-switcher" hidden>
-                    <label for="expanded-switcher">=</label>
+                    <label for="expanded-switcher"><i class="fas fa-bars"></i></label>
                 </div>
             </div>
             </div>
